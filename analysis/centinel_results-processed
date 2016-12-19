@@ -1,0 +1,369 @@
+COUNTRY: IR
+IP: 185.8.173.0/24
+AS NUMBER: 48434
+
+********************************************************************** Printing percent Censorship data by Category ***
+ control 
+TCP Connect: 0.909091 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+control, 9, 8, 0, 1,0
+
+ List of fail messages for HTTP connect for control 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hate speech 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Hate speech, 4, 0, 0, 4,0
+
+ List of fail messages for HTTP connect for Hate speech 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Environment 
+TCP Connect: 0.923077 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Environment, 9, 4, 0, 3,2
+
+ List of fail messages for HTTP connect for Environment 
+(28, 'Operation timed out after 10000 milliseconds with 0 bytes received')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Operation timed out after 4123 milliseconds with 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2014-04-15 
+TCP Connect: 0.500000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+2014-04-15, 1, 0, 0, 1,0
+
+ List of fail messages for HTTP connect for 2014-04-15 
+(28, 'Resolving timed out after 10519 milliseconds')
+(6, 'Could not resolve host: baoba.org",HAL,History')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Multimedia sharing 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Multimedia sharing, 1, 0, 0, 1,0
+
+ List of fail messages for HTTP connect for Multimedia sharing 
+(56, 'Recv failure: Connection reset by peer')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2016-04-20 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+2016-04-20, 1, 0, 0, 1,0
+
+ List of fail messages for HTTP connect for 2016-04-20 
+(28, 'Resolving timed out after 10517 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Free expression and media freedom 
+TCP Connect: 0.898438 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Free expression and media freedom, 108, 53, 0, 53,2
+
+ List of fail messages for HTTP connect for Free expression and media freedom 
+(3, 'Illegal characters found in URL')
+(28, 'Operation timed out after 10000 milliseconds with 0 bytes received')
+(28, 'Resolving timed out after 10519 milliseconds')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(7, 'Failed to connect to www.anbacom.com port 80: Connection timed out')
+(28, 'Resolving timed out after 10518 milliseconds')
+(28, 'Operation timed out after 4409 milliseconds with 0 bytes received')
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Operation timed out after 10001 milliseconds with 0 bytes received')
+(28, 'Connection timed out after 10001 milliseconds')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(56, 'Recv failure: Connection reset by peer')
+(28, 'Operation timed out after 9300 milliseconds with 9847 out of 13767 bytes received')
+(28, 'Operation timed out after 9937 milliseconds with 0 bytes received')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Connection timed out after 10000 milliseconds')
+(7, 'Failed to connect to www.rahesabz.ne port 80: Connection timed out')
+(7, 'Failed to connect to www.tabnak.i port 80: Connection timed out')
+(28, 'Resolving timed out after 10519 milliseconds')
+(28, 'Operation timed out after 9554 milliseconds with 11295 out of 13767 bytes received')
+(28, 'Operation timed out after 10001 milliseconds with 0 bytes received')
+(7, 'Failed to connect to www.ecoworld-mag.com port 80: Connection timed out')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Religious conversion, commentary and criticism 
+TCP Connect: 0.944444 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Religious conversion, commentary and criticism, 15, 4, 0, 11,0
+
+ List of fail messages for HTTP connect for Religious conversion, commentary and criticism 
+(28, 'Connection timed out after 10000 milliseconds')
+(56, 'Recv failure: Connection reset by peer')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Resolving timed out after 10519 milliseconds')
+(28, 'Operation timed out after 9359 milliseconds with 4055 out of 13767 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alcohol and drugs 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Alcohol and drugs, 3, 2, 0, 1,0
+
+ List of fail messages for HTTP connect for Alcohol and drugs 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Political reform 
+TCP Connect: 0.980769 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Political reform, 52, 8, 0, 44,0
+
+ List of fail messages for HTTP connect for Political reform 
+(28, 'Operation timed out after 9544 milliseconds with 4055 out of 13767 bytes received')
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Resolving timed out after 10519 milliseconds')
+(28, 'Resolving timed out after 10520 milliseconds')
+(28, 'Resolving timed out after 10516 milliseconds')
+(28, 'Resolving timed out after 10517 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Miscellaneous 
+TCP Connect: 0.923077 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Miscellaneous, 13, 3, 0, 10,0
+
+ List of fail messages for HTTP connect for Miscellaneous 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(7, 'Failed to connect to thissitedoesnotexist.il port 80: Connection timed out')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Peer-to-peer file sharing 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Peer-to-peer file sharing, 1, 1, 0, 0,0
+
+ List of fail messages for HTTP connect for Peer-to-peer file sharing 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Minority faiths 
+TCP Connect: 0.871795 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Minority faiths, 34, 6, 0, 28,0
+
+ List of fail messages for HTTP connect for Minority faiths 
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Resolving timed out after 10518 milliseconds')
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Connection timed out after 10000 milliseconds')
+(28, 'Connection timed out after 10000 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ History, arts and literature 
+TCP Connect: 0.846154 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+History, arts and literature, 11, 3, 1, 7,0
+
+ List of fail messages for HTTP connect for History, arts and literature 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+(28, 'Operation timed out after 8945 milliseconds with 0 bytes received')
+(28, 'Connection timed out after 10000 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Web hosting sites and portals 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Web hosting sites and portals, 5, 1, 0, 3,0
+
+ List of fail messages for HTTP connect for Web hosting sites and portals 
+(28, 'Resolving timed out after 10519 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Militants, extremists and separatists 
+TCP Connect: 0.833333 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Militants, extremists and separatists, 6, 0, 0, 6,0
+
+ List of fail messages for HTTP connect for Militants, extremists and separatists 
+(7, 'Failed to connect to www.maryam-rajavi.org port 80: Connection refused')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Gay-lesbian 
+TCP Connect: 0.952381 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Gay-lesbian, 15, 1, 0, 14,0
+
+ List of fail messages for HTTP connect for Gay-lesbian 
+(28, 'Operation timed out after 9374 milliseconds with 4055 out of 13767 bytes received')
+(28, 'Operation timed out after 8950 milliseconds with 0 bytes received')
+(56, 'Recv failure: Connection reset by peer')
+(28, 'Operation timed out after 9771 milliseconds with 8399 out of 13767 bytes received')
+(56, 'Recv failure: Connection reset by peer')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Keywords 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Keywords, 54, 54, 0, 0,0
+
+ List of fail messages for HTTP connect for Keywords 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Groups and social networking 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Groups and social networking, 12, 1, 0, 11,0
+
+ List of fail messages for HTTP connect for Groups and social networking 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Women's rights 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Women's rights, 14, 0, 0, 13,1
+
+ List of fail messages for HTTP connect for Women's rights 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hacking 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Hacking, 2, 0, 0, 2,0
+
+ List of fail messages for HTTP connect for Hacking 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DPI Test 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+DPI Test, 3, 0, 0, 1,2
+
+ List of fail messages for HTTP connect for DPI Test 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Foreign relations and military 
+TCP Connect: 0.750000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Foreign relations and military, 6, 0, 0, 6,0
+
+ List of fail messages for HTTP connect for Foreign relations and military 
+(7, 'Failed to connect to www.isa.gov.il port 80: Connection timed out')
+(28, 'Connection timed out after 10000 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Human rights 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Human rights, 8, 2, 0, 5,1
+
+ List of fail messages for HTTP connect for Human rights 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Political transformation 
+TCP Connect: 0.954545 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Political transformation, 24, 7, 0, 17,0
+
+ List of fail messages for HTTP connect for Political transformation 
+(7, 'Failed to connect to www.avayeashena.com port 80: Connection timed out')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sex education and family planning 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Sex education and family planning, 2, 0, 0, 2,0
+
+ List of fail messages for HTTP connect for Sex education and family planning 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Search engines 
+TCP Connect: 0.750000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Search engines, 3, 1, 0, 2,0
+
+ List of fail messages for HTTP connect for Search engines 
+(28, 'Resolving timed out after 10518 milliseconds')
+(6, 'Could not resolve host: www.google.co.il"')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Anonymizers and circumvention 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Anonymizers and circumvention, 3, 1, 0, 2,0
+
+ List of fail messages for HTTP connect for Anonymizers and circumvention 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Pornography 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Pornography, 11, 4, 0, 6,1
+
+ List of fail messages for HTTP connect for Pornography 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Blogging services 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Blogging services, 5, 3, 0, 2,0
+
+ List of fail messages for HTTP connect for Blogging services 
+(28, 'Connection timed out after 10000 milliseconds')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Minority rights and ethnic content 
+TCP Connect: 1.000000 percent
+ *** HTTP Status Codes ****
+ Category, Total, 200,400, 403, 404 
+Minority rights and ethnic content, 7, 1, 0, 6,0
+
+ List of fail messages for HTTP connect for Minority rights and ethnic content 
+(28, 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received')
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ List of failed websites for TCP connect 
+https://www.google.co.il", [Errno -5] No address associated with hostname, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.cbs.gov.il, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.iranianuk.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://mangoosaleam.blogspot.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.rahesabz.ne, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://thissitedoesnotexist.il, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+www.yahoo.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.alburhan.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://god_in_fire.blogspot.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://emroozdarharrooz.blogspot.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://donbaleh.co, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.fnoor.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://weblog.macsudi.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.anbacom.com/, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.kasr-alsanam.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.maryam-rajavi.org, [Errno 111] Connection refused, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.theworld.org/2011/09/the-consequences-of-irans-lake-orumiyeh-drying-up, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.alserdaab.org, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.sunni-news.net, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://baoba.org",HAL,History, [Errno -5] No address associated with hostname, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.moda.gov.sa/Default.aspx, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://rezaghassemi.org",HAL,History, [Errno -5] No address associated with hostname, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.alnadwah.com.sa, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.alrased.net/site, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://213.4.130.210, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.tabnak.i, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://pjhouse.blogspot.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.sigarchi.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.isa.gov.il, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.avayeashena.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://dw.d, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.ecoworld-mag.com, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+http://www.bbc.co.u, timed out, http://www.google.com/search?hl=ar&q=Ganji&btnG=%D8%A5%D8%A8%D8%AD%D8%AB%21&lr=
+*** Printing results for DPI ***
+*** TYPE: full path, status code, content length, server , redirect count ***
+Control: www.diigikala.com, 403, 162, nginx, 1
+DPI: www.blogfa.com/porn, 403, 0
+Control: www.blogfa.com, 200, 0
+DPI: http://www.blogfa.com/members/clit, 404, 1245, cloudflare-nginx, 0
+Control: www.blogfa.com, 200, 0
+DPI: https://www.yahoo.com/news/politics/clit, 404, 604, ATS, 1
+Control: www.yahoo.com, 200, 1
