@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2016 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2016 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,7 +320,12 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
- (./abstract.tex) Excluding 'CCSXML' comment.
+ (./abstract.tex)
+Overfull \hbox (3.9438pt too wide) in paragraph at lines 2--83
+\T1/aer/m/n/9 HTTP GET re-quests, TCP con-nect re-quests and DNS queries
+ []
+
+Excluding 'CCSXML' comment.
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 129.
 
 
@@ -357,7 +362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--1
 
 ]
 (./iclab.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
@@ -366,32 +371,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-)
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \input
-          {ripe}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
-(./ripe.tex
+) (./ripe.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-)) (./conclusion.tex
+[2])) (./conclusion.tex
 Overfull \hbox (12.8682pt too wide) in paragraph at lines 17--1
 \T1/aer/m/n/9 solver (Per-cent-age block-ing per re-solver lo-ca-tion of “Bad
 ”
  []
 
-) (./FutureWork.tex) [2]
+) (./FutureWork.tex)
 No file sig-alternate-sample.bbl.
 LaTeX Font Info:    Try loading font information for T1+aett on input line 172.
 
@@ -404,11 +400,11 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 Here is how much of TeX's memory you used:
  3264 strings out of 493014
  42507 string characters out of 6133351
- 115789 words of memory out of 5000000
+ 116789 words of memory out of 5000000
  6668 multiletter control sequences out of 15000+600000
  58749 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,35p,1231b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,35p,1307b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -423,7 +419,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (3 pages, 153344 bytes).
+Output written on sig-alternate-sample.pdf (3 pages, 155028 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
