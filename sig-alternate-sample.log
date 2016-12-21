@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2016 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2016 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,34 +334,60 @@ File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
- (./Introduction.tex) (./Background.tex) (./Relatedworks.tex) (./Experimentsand
-results.tex
-Overfull \hbox (19.67073pt too wide) in paragraph at lines 4--1
-\T1/aer/m/n/9 The pre-vi-ous ex-per-i-ments re-ported this redi-rect IP as 10.1
-0.34.34. 
- []
-
-
-Overfull \hbox (2.4612pt too wide) in paragraph at lines 4--1
-\T1/aer/bx/n/9 HTTP Fil-ter-ing: \T1/aer/m/n/9 Ac-cess to spe-cific web-sites b
-locked, based
- []
-
-
-Overfull \hbox (1.7515pt too wide) in paragraph at lines 4--1
-\T1/aer/m/n/9 among oth-ers meth-ods of en-cryp-tion. Fur-ther-more, at-tempts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--1
-
- []
-
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ (./Introduction.tex) (./Background.tex) (./Relatedworks.tex [1{/usr/local/texl
+ive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-(./iclab.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Overfull \hbox (4.55052pt too wide) in paragraph at lines 8--9
+[]\T1/aer/m/n/9 Access to spe-cific web-sites blocked, based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Overfull \hbox (2.95059pt too wide) in paragraph at lines 9--10
+[]\T1/aer/m/n/9 Iran re-port-edly throt-tles the con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+! Undefined control sequence.
+l.10 ... maximum bandwidth afforded to home user\‚
+                                                  Äôs is limited. This was p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.77335pt too wide) in paragraph at lines 10--11
+[]\T1/aer/m/n/9 The max-i-mum band-width
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+) (./Experimentsandresults.tex (./iclab.tex
 ! Undefined control sequence.
 l.4 ...US and a valid IP in Iran. Figure \reminder
                                                    x shows a comparison of D...
@@ -397,13 +423,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-) (./ripe.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
+[2 <./pictures/DNSComparision.png>]) (./ripe.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[2 <./pictures/DNSComparision.png>])) (./conclusion.tex
-Overfull \hbox (12.8682pt too wide) in paragraph at lines 17--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+)) (./conclusion.tex
+Overfull \hbox (12.8682pt too wide) in paragraph at lines 21--1
 \T1/aer/m/n/9 solver (Per-cent-age block-ing per re-solver lo-ca-tion of ‚ÄúBad
 ‚Äù
  []
@@ -411,14 +452,16 @@ Overfull \hbox (12.8682pt too wide) in paragraph at lines 17--1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [3])
 (./FutureWork.tex)
 No file sig-alternate-sample.bbl.
 LaTeX Font Info:    Try loading font information for T1+aett on input line 172.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [3]
+) [4
+
+]
 (./sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
  3273 strings out of 493014
@@ -427,7 +470,7 @@ Here is how much of TeX's memory you used:
  6674 multiletter control sequences out of 15000+600000
  58749 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,35p,1308b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,35p,1745b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -442,10 +485,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (3 pages, 171027 bytes).
+Output written on sig-alternate-sample.pdf (4 pages, 174867 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
