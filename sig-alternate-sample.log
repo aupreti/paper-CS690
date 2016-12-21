@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2016 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2016 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,18 +223,18 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (./sig-alternate-sample.aux)
 \openout1 = `sig-alternate-sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -363,7 +363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--1
 ]
 (./iclab.tex
 ! Undefined control sequence.
-l.3 ...ry using the US-based VP.  Figure \reminder
+l.4 ...US and a valid IP in Iran. Figure \reminder
                                                    x shows a comparison of D...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -372,22 +372,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+<pictures/DNSComparision.png, id=18, 751.80875pt x 266.9975pt>
+File: pictures/DNSComparision.png Graphic file (type png)
+
+<use pictures/DNSComparision.png>
+Package pdftex.def Info: pictures/DNSComparision.png used on input line 10.
+(pdftex.def)             Requested size: 215.99994pt x 120.00108pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 8--11
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 19--22
 \T1/aer/m/n/9 http://www.jawanan.org and http://www.jebhemelli.org- two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
@@ -396,13 +402,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-[2])) (./conclusion.tex
+[2 <./pictures/DNSComparision.png>])) (./conclusion.tex
 Overfull \hbox (12.8682pt too wide) in paragraph at lines 17--1
 \T1/aer/m/n/9 solver (Per-cent-age block-ing per re-solver lo-ca-tion of “Bad
 ”
  []
 
-) (./FutureWork.tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./FutureWork.tex)
 No file sig-alternate-sample.bbl.
 LaTeX Font Info:    Try loading font information for T1+aett on input line 172.
 
@@ -411,10 +421,10 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ) [3]
 (./sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 3264 strings out of 493014
- 42507 string characters out of 6133351
- 116789 words of memory out of 5000000
- 6668 multiletter control sequences out of 15000+600000
+ 3273 strings out of 493014
+ 42687 string characters out of 6133351
+ 116797 words of memory out of 5000000
+ 6674 multiletter control sequences out of 15000+600000
  58749 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,1308b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -432,10 +442,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (3 pages, 157807 bytes).
+Output written on sig-alternate-sample.pdf (3 pages, 171027 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
