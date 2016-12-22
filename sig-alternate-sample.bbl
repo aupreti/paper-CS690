@@ -1,7 +1,19 @@
 \begin{thebibliography}{1}
 
+\bibitem{anderson}
+C.~Anderson.
+\newblock How iran is building its censorship-friendly domestic internet.
+
 \bibitem{anon:dns_china}
-{\em Towards a {Comprehensive} {Picture} of the {Great}
-  {Firewall}\textquotesingle s {DNS} {Censorship} {Anonymous}}.
+Anonymous.
+\newblock {\em Towards a {Comprehensive} {Picture} of the {Great}
+  {Firewall}\textquotesingle s {DNS} {Censorship}}.
+
+\bibitem{lee}
+T.~Lee.
+\newblock Here's how iran censors the internet.
+
+\bibitem{aryan}
+H.~A. Simurgh~Aryan and J.~A. Halderman.
 
 \end{thebibliography}

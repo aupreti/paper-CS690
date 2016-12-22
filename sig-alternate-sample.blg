@@ -3,49 +3,53 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sig-alternate-sample.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
-Warning--to sort, need author, editor, or key in anon:dns_china
-Warning--empty author and editor in anon:dns_china
+Warning--entry type for "anderson" isn't style-file defined
+--line 6 of file sigproc.bib
+Warning--entry type for "aryan" isn't style-file defined
+--line 12 of file sigproc.bib
+Warning--entry type for "lee" isn't style-file defined
+--line 17 of file sigproc.bib
 Warning--empty publisher in anon:dns_china
 Warning--empty year in anon:dns_china
-You've used 1 entry,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            499 strings with 3860 characters,
-and the built_in function-call counts, 193 in all, are:
-= -- 12
-> -- 1
+            508 strings with 4044 characters,
+and the built_in function-call counts, 835 in all, are:
+= -- 64
+> -- 34
 < -- 0
-+ -- 1
-- -- 0
-* -- 18
-:= -- 28
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 2
++ -- 14
+- -- 10
+* -- 34
+:= -- 140
+add.period$ -- 7
+call.type$ -- 4
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 13
-empty$ -- 25
-format.name$ -- 0
-if$ -- 39
+cite$ -- 6
+duplicate$ -- 33
+empty$ -- 89
+format.name$ -- 10
+if$ -- 174
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 6
-num.names$ -- 0
-pop$ -- 10
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 8
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 13
 quote$ -- 0
-skip$ -- 5
+skip$ -- 38
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 20
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 4
-while$ -- 0
-width$ -- 2
-write$ -- 7
-(There were 4 warnings)
+type$ -- 14
+warning$ -- 2
+while$ -- 8
+width$ -- 5
+write$ -- 28
+(There were 5 warnings)

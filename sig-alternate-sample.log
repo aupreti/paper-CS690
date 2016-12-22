@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,7 +422,19 @@ Overfull \hbox (6.7216pt too wide) in paragraph at lines 125--126
 work mea-sure-ment; Fire-walls; \T1/aer/m/n/9 Deep packet
  []
 
-(./Introduction.tex) (./Background.tex) (./Relatedworks.tex)
+(./Introduction.tex) (./Background.tex
+Overfull \hbox (9.68889pt too wide) in paragraph at lines 2--1
+\T1/aer/m/n/9 sisted civil-ians in ac-cess-ing blocked do-mains, have been bloc
+ked
+ []
+
+) (./Relatedworks.tex
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
 (./Experimentsandresults.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
@@ -455,10 +467,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 <pictures/WebsiteList.png, id=17, 922.44624pt x 371.3875pt>
 File: pictures/WebsiteList.png Graphic file (type png)
 
@@ -556,7 +564,7 @@ Package pdftex.def Info: PerDNSResolver.png used on input line 31.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/it' undefined
 (Font)              using `TS1/aer/m/n' instead
-(Font)              for symbol `textquotesingle' on input line 5.
+(Font)              for symbol `textquotesingle' on input line 10.
 
 ) [5 <./ResolutionRate.png> <./PerDNSResolver.png>] (./sig-alternate-sample.aux
 )
@@ -565,10 +573,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3733 strings out of 493014
- 49837 string characters out of 6133351
- 124279 words of memory out of 5000000
- 7126 multiletter control sequences out of 15000+600000
+ 3736 strings out of 493014
+ 49859 string characters out of 6133351
+ 124288 words of memory out of 5000000
+ 7129 multiletter control sequences out of 15000+600000
  56759 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,1331b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -585,7 +593,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on sig-alternate-sample.pdf (5 pages, 329177 bytes).
+Output written on sig-alternate-sample.pdf (5 pages, 328934 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
