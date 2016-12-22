@@ -11,11 +11,24 @@
 
 \textbf{Always Resolves:} The domain names in this category were all accurately resolved. The resolutions were verified by scripts that ran the whois command to confirm the organization name matched the intended domain’s organization name. The initial tests executed 60 domain name resolution requests from three probes to three targeted resolvers. Thus each domain was tested from three probes, targeted at three resolvers, for a total of 9 resolutions per domain. A domain was assigned to this category if all of the resolutions were accurate. Domains in this category include many local news and government websites among others.
 
-\textbf{ Resolves:} Our initial test of 60 domain names over three probes and three target resolvers revealed inconsistencies in resolutions. Specifically, after testing the first three resolvers, located in Tehran (2) and Isfahan, the results revealed that one resolver in Tehran, would consistently return accurate resolutions for domains which returned the 10.10.34.36 redirect pages by the other two resolvers. To determine whether or not this anomalous resolver was one of a kind, or if there exists true diversity in replies depending on the chosen DNS resolver, we extended further testing. Our additional tests utilized the same three probes with two additional resolvers in Tabriz and Zehadan. We tested every domain that returned the false redirect address in the previous round of resolutions against these additional resolvers. We found further inconsistencies. The domain names in this category were accurately resolved by some resolvers and falsely resolved by others. This category contained a wide variety of domains whose contents covered topics including: human rights, local blogs, national news and censorship circumvention.
+\textbf{Sometimes Resolves:} Our initial test of 60 domain names over three probes and three target resolvers revealed inconsistencies in resolutions. Specifically, after testing the first three resolvers, located in Tehran (2) and Isfahan, the results revealed that one resolver in Tehran, would consistently return accurate resolutions for domains which returned the 10.10.34.36 redirect pages by the other two resolvers. To determine whether or not this anomalous resolver was one of a kind, or if there exists true diversity in replies depending on the chosen DNS resolver, we extended further testing. Our additional tests utilized the same three probes with two additional resolvers in Tabriz and Zehadan. We tested every domain that returned the false redirect address in the previous round of resolutions against these additional resolvers. We found further inconsistencies. The domain names in this category were accurately resolved by some resolvers and falsely resolved by others. This category contained a wide variety of domains whose contents covered topics including: human rights, local blogs, national news and censorship circumvention.
 
 \textbf{ Resolves:} The domain names in this category were never accurately resolved. This applies to all five resolvers. The category contained domains from topics including: political reform, gay+lesbian, international news, and western social media. The domain names in this category returned, consistently resolved as either the redirect IP, 10.10.34.36 or did not resolve at all and resulted in a timeout.
 
-Figure 1. Shows the accurate DNS resolution rate of a few of the queried domains
+\begin{figure}
+\includegraphics[
+  height=.5\columnwidth,
+  width=.9\columnwidth
+]{ResolutionRate.png}
+  \caption{Resolution rate of some queried domains.}
+\end{figure}
 
 
-Figure 2. Shows the percentage accuracy per DNS resolver, of the domains that were blocked by at least one resolver (Percentage blocking per resolver location of “Bad” Domain Names).
+\begin{figure}
+\includegraphics[
+  height=.5\columnwidth,
+  width=.9\columnwidth
+]{PerDNSResolver.png}
+  \caption{Percentage accuracy per DNS resolver of domains blocked by at least one resolver}
+\end{figure}
+
