@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 04:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,7 +395,7 @@ File: pictures/WebsiteList.png Graphic file (type png)
 Package pdftex.def Info: pictures/WebsiteList.png used on input line 6.
 (pdftex.def)             Requested size: 453.59692pt x 182.62181pt.
  (./iclab.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
@@ -403,46 +403,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 File: pictures/DNSComparision.png Graphic file (type png)
 
 <use pictures/DNSComparision.png>
-Package pdftex.def Info: pictures/DNSComparision.png used on input line 10.
+Package pdftex.def Info: pictures/DNSComparision.png used on input line 11.
 (pdftex.def)             Requested size: 215.99994pt x 120.00108pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []\T1/aer/m/n/9 sslv3 alert hand-shake fail-ure
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 32--32
+Underfull \hbox (badness 1454) in paragraph at lines 34--34
 []\T1/aer/m/n/9 [Errno -2] Name or ser-vice not
  []
 
 
-Overfull \hbox (9.45857pt too wide) in paragraph at lines 18--40
+Overfull \hbox (9.45857pt too wide) in paragraph at lines 20--42
 \T1/aer/m/n/9 whereas er-rors such as `TLSV1_ALERT_INTERNAL_ERROR'
  []
 
-<pictures/TCPcompareHTTP.png, id=20, 998.73125pt x 371.3875pt>
+[2] <pictures/TCPcompareHTTP.png, id=23, 998.73125pt x 371.3875pt>
 File: pictures/TCPcompareHTTP.png Graphic file (type png)
 
 <use pictures/TCPcompareHTTP.png>
-Package pdftex.def Info: pictures/TCPcompareHTTP.png used on input line 46.
+Package pdftex.def Info: pictures/TCPcompareHTTP.png used on input line 48.
 (pdftex.def)             Requested size: 453.59692pt x 168.67555pt.
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 42--51
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 44--53
 \T1/aer/m/n/9 http://www.jawanan.org and http://www.jebhemelli.org- two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--51
+Underfull \hbox (badness 10000) in paragraph at lines 44--53
 
  []
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Underfull \vbox (badness 2865) has occurred while \output is active []
 
  [3 <./pictures/WebsiteList.png> <./pictures/DNSComparision.png>]) (./ripe.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -464,52 +464,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./pictures/TCPcompareHTTP.png>] <ResolutionRate.png, id=33, 263.5446pt x 2
-08.1376pt>
+<ResolutionRate.png, id=29, 263.5446pt x 208.1376pt>
 File: ResolutionRate.png Graphic file (type png)
-
-<use ResolutionRate.png>
+ <use ResolutionRate.png>
 Package pdftex.def Info: ResolutionRate.png used on input line 22.
 (pdftex.def)             Requested size: 216.00743pt x 120.00212pt.
- <PerDNSResolver.png, id=34, 241.3818pt x 220.1826pt>
-File: PerDNSResolver.png Graphic file (type png)
 
-<use PerDNSResolver.png>
+<PerDNSResolver.png, id=30, 241.3818pt x 220.1826pt>
+File: PerDNSResolver.png Graphic file (type png)
+ <use PerDNSResolver.png>
 Package pdftex.def Info: PerDNSResolver.png used on input line 31.
 (pdftex.def)             Requested size: 216.00406pt x 119.99881pt.
-)) (./conclusion.tex) (./FutureWork.tex)
+)) (./conclusion.tex) (./FutureWork.tex [4])
 No file sig-alternate-sample.bbl.
 LaTeX Font Info:    Try loading font information for T1+aett on input line 162.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [5 <./ResolutionRate.png> <./PerDNSResolver.png>] (./sig-alternate-sample.aux
-) ) 
+) [5 <./pictures/TCPcompareHTTP.png> <./ResolutionRate.png> <./PerDNSResolver.p
+ng>]
+(./sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
  3292 strings out of 493014
  43175 string characters out of 6133351
- 124821 words of memory out of 5000000
+ 121821 words of memory out of 5000000
  6692 multiletter control sequences out of 15000+600000
  56596 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,1331b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on sig-alternate-sample.pdf (5 pages, 333034 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sig-alternate-sample.pdf (5 pages, 335139 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
