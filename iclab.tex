@@ -1,7 +1,7 @@
 \subsection{ICLab}
 ICLab platform was used to conduct DNS, traceroute, TCP connect, TLS handshake and HTTP GET measurements. All except the traceroute experiments were successful.
 \subsubsection{DNS} DNS resolution of each domain in our list was conducted from the Iranian VP using two resolvers: A local resolver of the VP's choice and the google resolver, 8.8.8.8 were used. A python script was then used to compare the DNS responses from a US-based VP to the results obtained from Iran.\\ 
-All queries using the google resolver yielded a null response. We hypothesize the DNS packets destined to 8.8.8.8 are dropped. Some queries using the local resolver also yielded a null response even though a valid IP was obtained for the query using the US-based VP. On the flip side, a few domains in our test list got null response in the US and a valid IP in Iran. Figure \reminder x shows a comparison of DNS responses from a US VP and a Iranian VP.\\
+All queries using the google resolver yielded a null response. We hypothesize the DNS packets destined to 8.8.8.8 are dropped. Some queries using the local resolver also yielded a null response even though a valid IP was obtained for the query using the US-based VP. On the flip side, a few domains in our test list got null response in the US and a valid IP in Iran. Figure~\ref{fig:DNSCompare} shows a comparison of DNS responses from a US VP and a Iranian VP.\\
 
 \begin{figure}
 \includegraphics[

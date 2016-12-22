@@ -1,6 +1,11 @@
 \section{Experiments and Results}\label{sec:experimentsandresults}
-We conducted experiments using ICLab and RIPE Atlas. ICLab is a research platform used to measure global Internet censorship. ICLab consists Raspberry Pis and VPN vantage points (VPs) located all around the word. This  platform allows researchers to run sef-written experiments on chosen VPs. ICLab was used to conduct tests targeted at over 500 domains. The domains tested fall in a variety of categories, including the top  Alexa domains as accessed by people within Iran as well as several hundred additional domains, which were previously reported to be blocked.\\
+We conducted experiments using ICLab and RIPE Atlas. ICLab is a research platform used to measure global Internet censorship. ICLab consists Raspberry Pis and VPN vantage points (VPs) located all around the word. This  platform allows researchers to run sef-written experiments on chosen VPs. ICLab was used to conduct tests targeted at over 500 domains. The domains tested fall in a variety of categories, including the top  Alexa domains as accessed by people within Iran as well as several hundred additional domains, which were previously reported to be blocked. Figure~\ref{fig:websitelist} shows teh distribution of our test domains across different categories.\\
  RIPE Atlas is a global network of probes that measure Internet reachability and connectivity.  RIPE was used determine several vantage points from which to send DNS queries. 
+\begin{figure*}
+  \centerline{\includegraphics[width=.9\textwidth,keepaspectratio]{pictures/WebsiteList.png}}
+  \caption{Test Domains by Category}
+  \label{fig:websitelist}
+\end{figure*}
 
 \input{iclab}
 \input{ripe}
