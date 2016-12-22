@@ -8,7 +8,7 @@ All queries using the google resolver yielded a null response. We hypothesize th
   height=.5\columnwidth,
   width=.9\columnwidth
 ]{pictures/DNSComparision.png}
-  \caption{This is a teaser}
+  \caption{Comparision of DNS responses between a US-based VP and an Iranian VP}
   \label{fig:DNSCompare}
 \end{figure}
 
@@ -17,8 +17,12 @@ All queries using the google resolver yielded a null response. We hypothesize th
 \subsubsection{TLS handshake}
 \subsubsection{HTTP}
  HTTP GET requests were executed from VPs  in both the United States and Iran to use as control and experiment results, respectively. The same test list of more than 500 urls was used. ICLab separates an url into host and path using a python library, \textit{urllib}. HTTP GET requests to invalid domains were used to verify Deep Packet Inspection(DPI). For this, paths to Alexa top websites in Iran were modified with a trigger word such as porn. The expectation is that an invalid domain should return a 404 Page Not Found Error.\\
-HTTP GET requests gave a more representative view of censorship in Iran. Many domains with successful TCP handshake gave 4xx responses. We believe that  the TCP connect succeeds because the collateral damage of IP-based blocking has deterred Iran from conducting IP-based blocking. While mix of status codes 200, 400, 3xx, 403 and 404 were obtained from the Iranian VP, the same test list of URLs resulted in a negligible number of failures when run from a U.S-based VP.  A handful of error responses gotten for the US VP were usually  404 Page Not Found or 403 Forbidden. 404 error occurred in the case where the domain name was intentionally invalid like in the case of path modification to check for deep packet inspection. Some websites such as http://ladysun.net -a Women's rights website, http://www.alrased.net/site- a minority faith website, http://www.jawanan.org and http://www.jebhemelli.org- two political reform websites and a few other websites elicited a 403 response even from the US based VP. A traceroure measurement and geoIP lookup located the destination servers to be in countries such as  Japan and the U.S.  The reason for this censorship is unknown to us and would be a good thing to look at in future studies.\\
+HTTP GET requests gave a more representative view of censorship in Iran. Many domains with successful TCP handshake gave 4xx response for a GET request. We believe that  the TCP connect succeeds because the collateral damage of IP-based blocking has deterred Iran from conducting IP-based blocking. Figure~\ref{fig:TCPcomapreHTTP} shows a larger number of successful TCP connection compared to a successful HTTP connection. An HTTP connection is considered successful if the status code of the response is 2xx or 3xx. While mix of status codes 200, 400, 3xx, 403 and 404 were obtained from the Iranian VP, the same test list of URLs resulted in a negligible number of failures when run from a U.S-based VP.  A handful of error responses gotten for the US VP were usually  404 Page Not Found or 403 Forbidden. 404 error occurred in the case where the domain name was intentionally invalid like in the case of path modification to check for deep packet inspection. Some websites such as http://ladysun.net -a Women's rights website, http://www.alrased.net/site- a minority faith website, http://www.jawanan.org and http://www.jebhemelli.org- two political reform websites and a few other websites elicited a 403 response even from the US based VP. A traceroure measurement and geoIP lookup located the destination servers to be in countries such as  Japan and the U.S.  The reason for this censorship is unknown to us and would be a good thing to look at in future studies.\\
+\begin{figure*}
+ \centerline{\includegraphics[width=.9\textwidth,keepaspectratio]{pictures/TCPcompareHTTP.png}}
+  \caption{Comparision of successful TCP and successful HTTP requests by category}
+  \label{fig:TCPcomapreHTTP}
+\end{figure*}
 We were also able to verify the use of DPI by iran. An invalid domain should return a 404 Page Not Found Error, however, the invalid domains which had a trigger word in the path resulted in 403 Forbidden. Adding /porn to a path always resulted in a 403 Forbidden response from Iranian VP and 404 Not Found response from a U.S-based VP. \\ 
-
 
 
