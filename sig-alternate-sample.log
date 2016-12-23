@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2016 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,6 +524,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--53
 Underfull \vbox (badness 2865) has occurred while \output is active []
 
  [3 <./pictures/WebsiteList.png> <./pictures/DNSComparision.png>]) (./ripe.tex
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -543,6 +547,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -593,7 +600,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on sig-alternate-sample.pdf (5 pages, 328934 bytes).
+Output written on sig-alternate-sample.pdf (5 pages, 328584 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
